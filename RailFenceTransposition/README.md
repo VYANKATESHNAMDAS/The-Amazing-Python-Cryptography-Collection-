@@ -30,45 +30,34 @@ To use the script, simply run the rail_cipher.py file:
 ## Usage
 When you run the script, you will be prompted to choose whether you want to encrypt or decrypt a message. After selecting an option, you will enter the text and the number of rails.
 
-
+ ```bash
 Would you like to (E)ncrypt or (D)ecrypt a message? E
-
 Enter the text: HELLO
-
 Enter the number of rails: 3
-
 Encrypted: HLOEL
-
+ ```
+ ```bash
 Would you like to (E)ncrypt or (D)ecrypt a message? D
-
 Enter the text: HLOEL
-
 Enter the number of rails: 3
-
 Decrypted: HELLO
+ ```
 
 ## Example
-
+ ```bash
 Encrypting a message:
-
 Would you like to (E)ncrypt or (D)ecrypt a message? E
-
 Enter the text: ATTACKATDAWN
-
 Enter the number of rails: 3
-
 Encrypted: ATDAWNTTACA
-
+ ```
+ ```bash
 Decrypting a message:
-
-
 Would you like to (E)ncrypt or (D)ecrypt a message? D
-
 Enter the text: ATDAWNTTACA
-
 Enter the number of rails: 3
-
 Decrypted: ATTACKATDAWN
+ ```
 
 ## Code Explanation
 ### The script uses a Rail Fence Cipher algorithm to encrypt and decrypt messages. It first asks the user to choose between encryption and decryption, then prompts for the necessary inputs. The script includes error handling to manage invalid inputs and uses logging for tracking the process.
